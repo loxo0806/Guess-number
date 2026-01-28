@@ -73,8 +73,3 @@ ALTER TABLE ONLY public.users
 ALTER TABLE ONLY public.games
     ADD CONSTRAINT games_user_id_fkey FOREIGN KEY (user_id) REFERENCES public.users(user_id);
 
-
---
--- PostgreSQL database dump complete
---
-
